@@ -1,11 +1,10 @@
 {
     "name": "VAMK dark mode",
-    "version": "0.0.1",
+    "version": "0.1",
     "manifest_version": 2,
-    "description": "Dark theme for VAMK portal",
+    "description": "Dark theme for VAMK portal.",
     "content_scripts": [
         {
-            "js": ["init.js"],
             "css": ["dark.css"],
             "matches": ["*://portal.vamk.fi/*"]
         }
