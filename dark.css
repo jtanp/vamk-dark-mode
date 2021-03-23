@@ -6,6 +6,16 @@ p, ol, ul, dl, li {
     color: white;
 }
 
+table, th, td {
+    color: white;
+}
+
+input {
+    color: white !important;
+    background-color: #404040 !important;
+    border: 1px solid #191919 !important;
+}
+
 .navbar.fixed-top .dropdown .dropdown-menu, .dropdown .dropdown-item {
     color: white;
     background-color: #191919;
@@ -46,28 +56,22 @@ div#site-news-forum .news p a, a.btn-link, .text-right, .left_menu_header {
     color: white !important;
 }
 
-input#username, input#password {
-    color: white;
-    background-color: #222222;
-    border: 1px solid #191919;
-}
-
 form#login .btn-primary:focus, form#login .btn-primary.focus {
-    outline: .2rem solid #190909;
+    outline: .2rem solid #101010;
     -webkit-box-shadow: none;
     box-shadow: none;
 }
 
-form#guestlogin .btn-secondary {
-    color: white;
-    background-color: #303030;
-    border-color: #303030;
+.btn-secondary {
+    color: white !important;
+    background-color: #303030 !important;
+    border-color: #303030 !important;
 }
 
-form#guestlogin .btn-secondary:focus, form#guestlogin .btn-secondary.focus {
-    outline: .2rem solid #190909;
-    -webkit-box-shadow: none;
-    box-shadow: none;
+.btn-secondary:focus {
+    outline: .2rem solid #101010 !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
 }
 
 .alert-danger {
@@ -90,4 +94,78 @@ div[class^="col-"] {
 
 ::-webkit-scrollbar-thumb {
     background: #303030;
+}
+
+.list-group-item, .list-group-item-action {
+    color: white !important;
+    background-color: #191919 !important;
+}
+
+.list-group-item.active, .list-group-item-action:active {
+    color: white !important;
+    background-color: #e05206 !important;
+    border-color: #e05206 !important;
+}
+
+.path-course-view .completionprogress {
+    color: white;
+}
+
+a.dropdown-toggle {
+    color: white !important;
+}
+
+.popover {
+    color: white;
+    background-color: #303030 !important;
+}
+
+.aalink:focus, .activityinstance>a:focus {
+    color: #e05206 !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+button#searchform_button {
+    color: white;
+    background-color: #303030;
+    border-color: #191919;
+}
+
+.nav-tabs {
+    color: white;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #191919 !important;
+    border-top-color: white !important;
+    border-left-color: white !important;
+    border-right-color: white !important;
+    border-bottom-color: #191919!important;
+}
+
+.no-overflow {
+    color: white;
+}
+
+.region_main_settings_menu_proxy {
+    background-color: #191919 !important;
+}
+
+.dropdown-menu.show {
+    background-color: #303030;
+}
+
+#action-menu-3-menu .dropdown-item {
+    background-color: #303030;
+}
+
+#action-menu-3-menu .dropdown-item:hover {
+    background-color: #e05206;
+}
+
+input#form-control {
+    color: white;
+    background-color: #404040;
+    border: 1px solid #191919;
 }
