@@ -138,8 +138,8 @@ div#goto-top-link .btn-light {
     color: white;
 }
 
-.popover {
-    color: white;
+.popover, .popover-header, .popover-body {
+    color: white !important;
     background-color: #303030 !important;
 }
 
