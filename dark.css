@@ -1,4 +1,4 @@
-h2, .h2, h5, .h5, h6, .h6 {
+h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     color: white;
 }
 
@@ -17,16 +17,24 @@ input {
 }
 
 .navbar.fixed-top .dropdown .dropdown-menu, .dropdown .dropdown-item {
-    color: white;
-    background-color: #191919;
+    color: white !important;
+    background-color: #222222 !important;
 }
 
 div#page-wrapper .bg-white, div#page-wrapper .bg-gray, #nav-drawer, footer#page-footer {
     background-color: #222222 !important;
+    border-color: #151515 !important;
 }
 
 div#page-wrapper .btn-light {
+    color: white !important;
     border-color: #191919;
+}
+
+.btn-light:focus, .btn-light.focus {
+    outline: .2rem solid #101010 !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
 }
 
 div#page-wrapper a:not([class]):focus {
@@ -65,7 +73,7 @@ form#login .btn-primary:focus, form#login .btn-primary.focus {
 .btn-secondary {
     color: white !important;
     background-color: #303030 !important;
-    border-color: #303030 !important;
+    border-color: #191919 !important;
 }
 
 .btn-secondary:focus {
@@ -84,6 +92,11 @@ div[class^="col-"] {
     background-color: #191919;
 }
 
+div#goto-top-link .btn-light {
+    color: #191919 !important;
+    background-color: #404040 !important;
+}
+
 ::-webkit-scrollbar {
     background: #121212;
 }
@@ -94,6 +107,20 @@ div[class^="col-"] {
 
 ::-webkit-scrollbar-thumb {
     background: #303030;
+}
+
+.popover-region-container {
+    background-color: #222222 !important;
+    border: 1px solid #151515 !important;
+}
+
+.popover-region-footer-container {
+    background-color: #222222 !important;
+    border-top: 1px solid white !important;
+}
+
+.popover-region-toggle::after {
+    border-bottom: 9px solid transparent !important;
 }
 
 .list-group-item, .list-group-item-action {
@@ -111,13 +138,13 @@ div[class^="col-"] {
     color: white;
 }
 
-a.dropdown-toggle {
-    color: white !important;
-}
-
 .popover {
     color: white;
     background-color: #303030 !important;
+}
+
+a.dropdown-toggle {
+    color: white !important;
 }
 
 .aalink:focus, .activityinstance>a:focus {
@@ -164,8 +191,147 @@ button#searchform_button {
     background-color: #e05206;
 }
 
-input#form-control {
+.mr-2 {
     color: white;
-    background-color: #404040;
-    border: 1px solid #191919;
+}
+
+.py-3 {
+    color: white;
+}
+
+div[id^="core_user-participantsfilter-"] {
+    background-color: #191919 !important;
+    border-color: #151515 !important;
+}
+
+.custom-select {
+    color: white !important;
+    background-color: #222222 !important;
+    border-color: #151515 !important;
+}
+
+.page-link {
+    color: white !important;
+    background-color: #222222 !important;
+    border: 1px solid #151515 !important;
+}
+
+.page-item.active .page-link {
+    color: white  !important;
+    background-color: #e05206 !important;
+    border-color: #151515 !important;
+}
+
+.path-mod-assign td.submissionstatussubmitted,
+.path-mod-assign td.submissiongraded,
+.path-mod-assign td.earlysubmission {
+    color: white !important;
+    background-color: #4b5f4b !important;
+}
+
+.path-mod-assign td.submissionnotgraded {
+    color: white !important;
+    background-color: #404040 !important;
+}
+
+.path-mod-assign td.latesubmission {
+    color: white !important;
+    background-color: #735050 !important;
+}
+
+.generaltable th, .generaltable td {
+    border-top: 1px solid white !important;
+    background-color: #191919 !important;
+}
+
+textarea {
+    color: white !important;
+    background-color: #303030 !important;
+}
+
+.mb-3, .my-3 {
+    color: white !important;
+}
+
+time {
+    color: white !important;
+}
+
+td.weekend {
+    color: #999999 !important;
+}
+
+.calendar_event_course {
+    background-color: #454545 !important;
+}
+
+a.arrow_link {
+    color: white !important;
+}
+
+.btn-outline-secondary {
+    color: white !important;
+    background-color: #303030 !important;
+    border-color: #151515 !important;
+}
+
+.dropdown-item {
+    color: white !important;
+    background-color: #303030 !important;
+}
+
+.dropdown-item:hover {
+    background-color: #e05206 !important;
+}
+
+div#intro {
+    color: white !important;
+}
+
+.form-autocomplete-suggestions {
+    background-color: #303030 !important;
+    border: 1px solid #151515 !important;
+    padding: .5rem !important;
+}
+
+.forumnodiscuss {
+    color: white !important;
+}
+
+.content {
+    color: white !important;
+    background-color: #191919 !important;
+}
+
+li.current {
+    background-color: #191919 !important;
+}
+
+tr.bestrow td, tr.lastrow td {
+    background-color: #191919 !important;
+    border-color: white !important;
+}
+
+.path-mod-quiz #mod_quiz_navblock .qnbutton {
+    color: white;
+    background: #303030 !important;
+    border: #151515 !important;
+}
+
+.info {
+    color: white !important;
+    background-color: #191919 !important;
+    border: 1px solid #151515 !important;
+}
+
+.formulation {
+    color: white !important;
+    background-color: #191919 !important;
+    border-color: #151515 !important;
+}
+
+.outcome {
+    color: white !important;
+    background-color: #404040 !important;
+    border-color: #151515 !important;
 }
