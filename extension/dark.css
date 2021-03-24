@@ -183,12 +183,16 @@ button#searchform_button {
     background-color: #303030;
 }
 
-#action-menu-3-menu .dropdown-item {
-    background-color: #303030;
+.dropdown-item {
+    background-color: #303030 !important;
 }
 
-#action-menu-3-menu .dropdown-item:hover {
-    background-color: #e05206;
+.dropdown-item:hover {
+    background-color: #e05206 !important;
+}
+
+.dropdown-item a {
+    color: white !important;
 }
 
 .mr-2 {
@@ -275,15 +279,6 @@ a.arrow_link {
     border-color: #151515 !important;
 }
 
-.dropdown-item {
-    color: white !important;
-    background-color: #303030 !important;
-}
-
-.dropdown-item:hover {
-    background-color: #e05206 !important;
-}
-
 div#intro {
     color: white !important;
 }
@@ -301,6 +296,10 @@ div#intro {
 .content {
     color: white !important;
     background-color: #191919 !important;
+}
+
+.modified {
+    color: white !important;
 }
 
 li.current {
