@@ -21,7 +21,7 @@ input {
     background-color: #222222 !important;
 }
 
-div#page-wrapper .bg-white, div#page-wrapper .bg-gray, #nav-drawer, footer#page-footer {
+div#page-wrapper .bg-white, div#page-wrapper .bg-gray, footer#page-footer {
     background-color: #222222 !important;
     border-color: #151515 !important;
 }
@@ -123,9 +123,13 @@ div#goto-top-link .btn-light {
     border-bottom: 9px solid transparent !important;
 }
 
+#nav-drawer {
+    background-color: #191919 !important;
+}
+
 .list-group-item, .list-group-item-action {
     color: white !important;
-    background-color: #191919 !important;
+    background-color: #222222 !important;
 }
 
 .list-group-item.active, .list-group-item-action:active {
