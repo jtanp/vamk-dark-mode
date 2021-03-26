@@ -1,19 +1,60 @@
 h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
-    color: white;
+    color: white !important;
 }
 
 p, ol, ul, dl, li {
-    color: white;
+    color: white !important;
 }
 
 table, th, td {
-    color: white;
+    color: white !important;
 }
 
 input {
     color: white !important;
     background-color: #404040 !important;
     border: 1px solid #191919 !important;
+}
+
+.news a , a.btn-link {
+    color: white !important;
+}
+
+a:focus {
+    color: #e05206 !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+a:hover {
+    color: #953704 !important;
+    text-decoration: underline !important;
+}
+
+a[data-hidden="1"] {
+    color: #999999 !important;
+}
+
+a.dimmed, a.dimmed:link {
+    color: #999999 !important;
+}
+
+a.dropdown-toggle {
+    color: white !important;
+}
+
+.aalink:focus, .activityinstance>a:focus {
+    color: #e05206 !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+a.arrow_link {
+    color: white !important;
+}
+
+div[class^="col-"] {
+    background-color: #191919;
 }
 
 .navbar.fixed-top .dropdown .dropdown-menu, .dropdown .dropdown-item {
@@ -31,43 +72,31 @@ div#page-wrapper .btn-light {
     border-color: #191919;
 }
 
-.btn-light:focus, .btn-light.focus {
-    outline: .2rem solid #101010 !important;
-    -webkit-box-shadow: none !important;
-    box-shadow: none !important;
-}
-
-div#page-wrapper a:not([class]):focus {
-    color: #e05206;
-    background-color: transparent;
-    box-shadow: none;
-}
-
 .navbar-light .navbar-brand, .nav-link, .usermenu .login {
     color: white !important;
 }
 
-div#page-wrapper .card, .card-body {
-    color: white;
-    background-color: #191919;
+.card {
+    color: white !important;
+    background-color: #191919 !important;
 }
 
-div#page-content #region-main, .d-sm-flex, .row {
-    background-color: #191919;
+#region-main, .d-sm-flex, .row {
+    background-color: #191919 !important;
 }
 
 div#site-news-forum .border {
     border: 1px solid #191919 !important;
 }
 
-div#site-news-forum .news p a, a.btn-link, .text-right, .left_menu_header {
+.text-right, .left_menu_header {
     color: white !important;
 }
 
-form#login .btn-primary:focus, form#login .btn-primary.focus {
-    outline: .2rem solid #101010;
-    -webkit-box-shadow: none;
-    box-shadow: none;
+.btn-primary:focus, .btn-primary.focus {
+    outline: .2rem solid #101010 !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
 }
 
 .btn-secondary {
@@ -82,14 +111,16 @@ form#login .btn-primary:focus, form#login .btn-primary.focus {
     box-shadow: none !important;
 }
 
+.btn-light:focus, .btn-light.focus {
+    outline: .2rem solid #101010 !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
 .alert-danger {
     color: white !important;
     background-color: #303030 !important;
     border-color: #303030 !important;
-}
-
-div[class^="col-"] {
-    background-color: #191919;
 }
 
 div#goto-top-link .btn-light {
@@ -138,6 +169,10 @@ div#goto-top-link .btn-light {
     border-color: #e05206 !important;
 }
 
+.btn-group>.btn {
+    color: white !important;
+}
+
 .path-course-view .completionprogress {
     color: white;
 }
@@ -145,16 +180,6 @@ div#goto-top-link .btn-light {
 .popover, .popover-header, .popover-body {
     color: white !important;
     background-color: #303030 !important;
-}
-
-a.dropdown-toggle {
-    color: white !important;
-}
-
-.aalink:focus, .activityinstance>a:focus {
-    color: #e05206 !important;
-    background-color: transparent !important;
-    box-shadow: none !important;
 }
 
 button#searchform_button {
@@ -273,10 +298,6 @@ td.weekend {
     background-color: #454545 !important;
 }
 
-a.arrow_link {
-    color: white !important;
-}
-
 .btn-outline-secondary {
     color: white !important;
     background-color: #303030 !important;
@@ -337,4 +358,8 @@ tr.bestrow td, tr.lastrow td {
     color: white !important;
     background-color: #404040 !important;
     border-color: #151515 !important;
+}
+
+.message-app .icon {
+    color: white !important;
 }
