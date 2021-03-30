@@ -20,6 +20,11 @@ input {
     color: white !important;
 }
 
+.news a:hover , a.btn-link:hover {
+    color: #e05206 !important;
+    text-decoration: underline !important;
+}
+
 a:focus {
     color: #e05206 !important;
     background-color: transparent !important;
@@ -27,19 +32,23 @@ a:focus {
 }
 
 a:hover {
-    color: #953704 !important;
-    text-decoration: underline !important;
+    color: #e05206 !important;
+    /* text-decoration: none !important; */
 }
 
 a[data-hidden="1"] {
     color: #999999 !important;
 }
 
+a[data-hidden="1"]:hover {
+    color: #e05206 !important;
+}
+
 a.dimmed, a.dimmed:link {
     color: #999999 !important;
 }
 
-a.dropdown-toggle {
+.dropdown-toggle {
     color: white !important;
 }
 
@@ -74,6 +83,10 @@ div#page-wrapper .btn-light {
 
 .navbar-light .navbar-brand, .nav-link, .usermenu .login {
     color: white !important;
+}
+
+.nav-link:hover {
+    color: #e05206 !important;
 }
 
 .card {
@@ -360,6 +373,27 @@ tr.bestrow td, tr.lastrow td {
     border-color: #151515 !important;
 }
 
+.que.ddwtos .group1 {
+    background-color: #303030 !important;
+}
+
 .message-app .icon {
     color: white !important;
+}
+
+.message-app {
+    color: white !important;
+    background-color: #222222 !important;
+    border-color: #151515 !important;
+}
+
+.message-app .message.received {
+    color: white !important;
+    background-color: #303030 !important;
+    border-color: #151515 !important;
+}
+
+.message-app .footer-container textarea {
+    color: white !important;
+    background-color: #303030 !important;
 }
