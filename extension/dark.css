@@ -358,7 +358,6 @@ tr.bestrow td, tr.lastrow td {
 .info {
     color: white !important;
     background-color: #191919 !important;
-    border: 1px solid #151515 !important;
 }
 
 .formulation {
@@ -382,13 +381,13 @@ tr.bestrow td, tr.lastrow td {
 }
 
 .message-app {
-    color: white !important;
+    color: white;
     background-color: #222222 !important;
     border-color: #151515 !important;
 }
 
 .message-app .message.received {
-    color: white !important;
+    color: white;
     background-color: #303030 !important;
     border-color: #151515 !important;
 }
@@ -396,4 +395,22 @@ tr.bestrow td, tr.lastrow td {
 .message-app .footer-container textarea {
     color: white !important;
     background-color: #303030 !important;
+}
+
+.comment-list li {
+    background-color: #303030;
+}
+
+.p-2 {
+    color: white;
+}
+
+.form-control {
+    color: white;
+    background-color: #303030;
+}
+
+.form-control:focus {
+    color: white;
+    background-color: #303030;
 }
