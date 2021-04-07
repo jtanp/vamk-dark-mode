@@ -28,6 +28,30 @@ body .mat-toolbar {
     background-color: #222222;
 }
 
+.dropdown-menu {
+    background-color: #222222 !important;
+    border-color: #151515 !important;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #205986 !important;
+    background-color: #222222 !important;
+}
+
+.search-result-container[_ngcontent-c14] {
+    background-color: #222222 !important;
+}
+
+search-app[_ngcontent-c12] {
+    background-color: #222222 !important;
+    border-bottom: 1px solid #151515 !important;
+}
+
+.basket-container[_ngcontent-c0] {
+    background: #222222 !important;
+    border-bottom: 1px solid #151515 !important;
+}
+
 .btn-light {
     color: #fff !important;
     background-color: #404040 !important;
@@ -41,6 +65,22 @@ body .mat-toolbar {
 
 .btn-light:not(:disabled):not(.disabled).active, .btn-light:not(:disabled):not(.disabled):active {
     background-color: #bc62aa !important;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #505050 !important;
+    border-color: #151515 !important;
+}
+
+.btn-outline-secondary {
+    color: #fff !important;
+    background-color: #505050 !important;
+    border-color: #151515 !important;
+}
+
+.btn-outline-secondary:hover, .btn-outline-secondary:focus {
+    background-color: #303030 !important;
 }
 
 .fc button {
@@ -59,7 +99,7 @@ body .mat-toolbar {
 }
 
 .fc-today, .fc-today .fc-row {
-    background-color: #404040;
+    background-color: #404040 !important;
 }
 
 footer[_ngcontent-c0] {
@@ -69,4 +109,53 @@ footer[_ngcontent-c0] {
 
 .col-12 {
     background-color: #303030;
+}
+
+.day-navi {
+    background: #222222 !important;
+}
+
+.current-event-card[_ngcontent-c12] .event-row[_ngcontent-c12] {
+    color: #fff !important;
+    background: #222222 !important;
+    border: 1px solid #151515 !important;
+}
+
+.free-space[_ngcontent-c12] {
+    color: #fff !important;
+}
+
+.fc-event, .fc-event:visited {
+    background-color: #303030 !important;
+    border-color: #151515 !important;
+}
+
+.mat-dialog-container {
+    color: #fff !important;
+    background-color: #222222 !important;
+    border-color: #151515 !important;
+}
+
+.info-header {
+    color: #fff !important;
+}
+
+.common-table-row.header-row, .search-result-row.header-row {
+    background: #222222 !important;
+}
+
+.nav-tabs .nav-link.active {
+    color: #fff !important;
+    background-color: #222222 !important;
+    border-color: #dee2e6 #dee2e6 #222222 !important;
+}
+
+.mat-menu-panel {
+    color: #fff !important;
+    background: #303030 !important;
+    border: 1px solid #151515 !important;
+}
+
+.mat-menu-item {
+    color: #fff !important;
 }
