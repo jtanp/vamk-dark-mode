@@ -1,0 +1,72 @@
+h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    color: white !important;
+}
+
+p, ol, ul, dl, li {
+    color: white !important;
+}
+
+input {
+    color: white !important;
+    background-color: #404040 !important;
+    border: 1px solid #191919 !important;
+}
+
+.container {
+    background-color: #222222 !important;
+}
+
+.main-container {
+    background-color: #222222 !important;
+}
+
+.search-options {
+    background-color: #222222 !important;
+}
+
+body .mat-toolbar {
+    background-color: #222222;
+}
+
+.btn-light {
+    color: #fff !important;
+    background-color: #404040 !important;
+    border-color: #151515 !important;
+}
+
+.btn-dark, .btn-primary {
+    background: #6f2f62;
+    border-color: #151515 !important;
+}
+
+.btn-light:not(:disabled):not(.disabled).active, .btn-light:not(:disabled):not(.disabled):active {
+    background-color: #bc62aa !important;
+}
+
+.fc button {
+    color: #fff;
+    border-color: #151515;
+}
+
+.fullcalendar-wrap {
+    background-color: #222222;
+}
+
+.fc-unthemed .fc-content, .fc-unthemed .fc-divider, .fc-unthemed .fc-list-heading td, .fc-unthemed .fc-list-view, 
+.fc-unthemed .fc-popover, .fc-unthemed .fc-row, .fc-unthemed tbody, .fc-unthemed td, .fc-unthemed th, .fc-unthemed thead {
+    color: #fff !important;
+    border-color: #151515 !important;
+}
+
+.fc-today, .fc-today .fc-row {
+    background-color: #404040;
+}
+
+footer[_ngcontent-c0] {
+    color: #fff !important;
+    background-color: #303030 !important;
+}
+
+.col-12 {
+    background-color: #303030;
+}

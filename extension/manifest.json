@@ -1,14 +1,16 @@
 {
     "name": "VAMK dark mode",
-    "version": "0.1",
+    "version": "0.2",
     "manifest_version": 2,
     "description": "Dark theme for VAMK portal.",
     "content_scripts": [
         {
-            "css": ["dark.css"],
+            "css": ["darkPortal.css"],
             "matches": ["*://portal.vamk.fi/*"]
+        },
+        {
+            "css": ["darkLukkari.css"],
+            "matches": ["*://lukkarit.vamk.fi/*"]
         }
-    ],
-    "web_accessible_resources": ["dark.css"]
-
+    ]
 }
