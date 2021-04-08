@@ -102,7 +102,7 @@ search-app[_ngcontent-c12] {
     background-color: #404040 !important;
 }
 
-footer[_ngcontent-c0] {
+footer {
     color: #fff !important;
     background-color: #303030 !important;
 }
@@ -115,13 +115,13 @@ footer[_ngcontent-c0] {
     background: #222222 !important;
 }
 
-.current-event-card[_ngcontent-c12] .event-row[_ngcontent-c12] {
+.current-event-card .event-row {
     color: #fff !important;
     background: #222222 !important;
     border: 1px solid #151515 !important;
 }
 
-.free-space[_ngcontent-c12] {
+.free-space {
     color: #fff !important;
 }
 
@@ -158,4 +158,38 @@ footer[_ngcontent-c0] {
 
 .mat-menu-item {
     color: #fff !important;
+}
+
+.top-row {
+    color: #fff;
+    background: #222222 !important;
+}
+
+.modal-content {
+    background-color: #222222 !important;
+    border: 1px solid #151515 !important;
+}
+
+.custom-select {
+    color: #fff !important;
+    background: #404040 !important;
+    border: 1px solid #151515 !important;
+}
+
+.form-control:focus {
+    color: #fff !important;
+    background-color: #404040 !important;
+    border-color: #151515 !important;
+}
+
+.item-table {
+    color: #fff;
+}
+
+.studybasket-row:not(.header-item):hover {
+    background: #303030 !important;
+}
+
+.search-container {
+    background: #222222 !important;
 }
