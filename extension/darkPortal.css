@@ -67,6 +67,7 @@ a.arrow_link {
 }
 
 div[class^="col-"] {
+    color: white;
     background-color: #191919;
 }
 
@@ -226,7 +227,7 @@ button#searchform_button {
 }
 
 .dropdown-menu.show {
-    background-color: #303030;
+    background-color: #222222;
 }
 
 .dropdown-item {
@@ -421,4 +422,12 @@ tr.bestrow td, tr.lastrow td {
 .form-control:focus {
     color: white;
     background-color: #303030;
+}
+
+.urlworkaround {
+    color: white;
+}
+
+.preferences-container .preference-table tr th, .preferences-container .preference-table tr td {
+    background-color: #191919 !important;
 }
