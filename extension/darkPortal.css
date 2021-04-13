@@ -415,8 +415,8 @@ tr.bestrow td, tr.lastrow td {
 }
 
 .form-control {
-    color: white;
-    background-color: #303030;
+    color: white !important;
+    background-color: #303030 !important;
 }
 
 .form-control:focus {
@@ -430,4 +430,34 @@ tr.bestrow td, tr.lastrow td {
 
 .preferences-container .preference-table tr th, .preferences-container .preference-table tr td {
     background-color: #191919 !important;
+}
+
+pre {
+    color: white !important;
+}
+
+.px-0 {
+    color: white !important;
+}
+
+.moodle-dialogue-base .moodle-dialogue-wrap {
+    background-color: #222222 !important;
+    border: 1px solid #151515 !important;
+}
+
+.fp-select .fp-info {
+    color: white;
+}
+
+.fp-select .fp-thumbnail {
+    background: #222222 !important;
+    border: 1px solid #222222 !important;
+}
+
+.fp-select .fp-thumbnail img {
+    border: 1px solid #222222 !important;
+}
+
+.fp-iconview .fp-filename-field .fp-filename {
+    background: #191919 !important;
 }
