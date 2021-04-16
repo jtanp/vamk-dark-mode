@@ -158,6 +158,10 @@ div#goto-top-link .btn-light {
     background: #303030;
 }
 
+::-webkit-scrollbar-thumb:hover {
+    background: #404040;
+}
+
 .popover-region-container {
     background-color: #222222 !important;
     border: 1px solid #151515 !important;

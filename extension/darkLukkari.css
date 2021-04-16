@@ -12,6 +12,22 @@ input {
     border: 1px solid #191919 !important;
 }
 
+::-webkit-scrollbar {
+    background: #121212;
+}
+
+::-webkit-scrollbar-button {
+    background: #303030;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #303030;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #404040;
+}
+
 .container {
     background-color: #222222 !important;
 }
