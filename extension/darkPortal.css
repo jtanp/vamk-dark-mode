@@ -290,6 +290,10 @@ div[id^="core_user-participantsfilter-"] {
     background-color: #735050 !important;
 }
 
+.path-mod-assign td.submissionstatusdraft {
+    color: white !important;
+}
+
 .generaltable th, .generaltable td {
     border-top: 1px solid white !important;
     background-color: #191919 !important;
@@ -460,4 +464,9 @@ pre {
 
 .fp-iconview .fp-filename-field .fp-filename {
     background: #191919 !important;
+}
+
+.alert-info {
+    background-color: #303030 !important;
+    border-color: #151515 !important;
 }
