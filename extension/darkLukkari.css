@@ -1,13 +1,13 @@
 h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
-    color: white !important;
+    color: #fff !important;
 }
 
 p, ol, ul, dl, li {
-    color: white !important;
+    color: #fff !important;
 }
 
 input {
-    color: white !important;
+    color: #fff !important;
     background-color: #404040 !important;
     border: 1px solid #191919 !important;
 }
@@ -79,7 +79,8 @@ search-app[_ngcontent-c12] {
     border-color: #151515 !important;
 }
 
-.btn-light:not(:disabled):not(.disabled).active, .btn-light:not(:disabled):not(.disabled):active {
+.btn-light:not(:disabled):not(.disabled).active, 
+.btn-light:not(:disabled):not(.disabled):active {
     background-color: #bc62aa !important;
 }
 
@@ -95,7 +96,8 @@ search-app[_ngcontent-c12] {
     border-color: #151515 !important;
 }
 
-.btn-outline-secondary:hover, .btn-outline-secondary:focus {
+.btn-outline-secondary:hover, 
+.btn-outline-secondary:focus {
     background-color: #303030 !important;
 }
 
@@ -108,8 +110,10 @@ search-app[_ngcontent-c12] {
     background-color: #222222;
 }
 
-.fc-unthemed .fc-content, .fc-unthemed .fc-divider, .fc-unthemed .fc-list-heading td, .fc-unthemed .fc-list-view, 
-.fc-unthemed .fc-popover, .fc-unthemed .fc-row, .fc-unthemed tbody, .fc-unthemed td, .fc-unthemed th, .fc-unthemed thead {
+.fc-unthemed .fc-content, .fc-unthemed .fc-divider, 
+.fc-unthemed .fc-list-heading td, .fc-unthemed .fc-list-view, 
+.fc-unthemed .fc-popover, .fc-unthemed .fc-row, .fc-unthemed tbody, 
+.fc-unthemed td, .fc-unthemed th, .fc-unthemed thead {
     color: #fff !important;
     border-color: #151515 !important;
 }
@@ -156,7 +160,8 @@ footer {
     color: #fff !important;
 }
 
-.common-table-row.header-row, .search-result-row.header-row {
+.common-table-row.header-row, 
+.search-result-row.header-row {
     background: #222222 !important;
 }
 
